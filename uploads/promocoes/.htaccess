@@ -1,0 +1,6 @@
+# Nunca executar nada como PHP dentro desta pasta — só serve como imagem.
+<FilesMatch "\.(php|php\d|phtml|pl|py|cgi|sh)$">
+  Require all denied
+</FilesMatch>
+
+Options -Indexes

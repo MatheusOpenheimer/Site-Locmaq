@@ -1,0 +1,47 @@
+/* Seção de promoções — entre o hero e o catálogo */
+
+.promos {
+  padding: 40px 0;
+}
+
+.promos .w h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.promos .w p{
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600; /* Define uma variação semi-bold/bold */
+  text-transform: uppercase; /* Funciona muito bem em caixa alta */
+  letter-spacing: 1px; /* Um leve espaçamento ajuda na leitura */
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.promos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 400px));
+  gap: 16px;
+  justify-content: center;
+}
+
+.promo-card {
+  display: block;
+  border-radius: 10px;
+  overflow: hidden;
+  line-height: 0;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, .12);
+  transition: transform .18s ease, box-shadow .18s ease;
+}
+
+.promo-card:hover,
+.promo-card:focus-visible {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 22px rgba(0, 0, 0, .18);
+}
+
+.promo-card img {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+  display: block;
+}
