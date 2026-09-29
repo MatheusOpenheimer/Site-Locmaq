@@ -1,0 +1,8 @@
+# Configurações com credenciais
+config.php
+
+# Arquivos de ambiente
+.env
+
+# Arquivos enviados pelos usuários
+uploads/promocoes/*
